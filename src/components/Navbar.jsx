@@ -11,7 +11,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary fixed w-full top-0 left-0">
+    <nav className="bg-primary fixed w-full top-0 left-0 z-10">
       <Container>
         <div className={clsx("h-20", "flex items-center", "text-white")}>
           <h3 className={clsx("mr-auto", "text-2xl font-bold")}>[EDUFREE]</h3>
@@ -37,6 +37,7 @@ const Navbar = () => {
               "block",
               "px-10 py-3",
               "border border-white rounded-md",
+              "transition duration-300 ease-in-out",
               "hover:bg-white hover:text-primary"
             )}
             href="#"

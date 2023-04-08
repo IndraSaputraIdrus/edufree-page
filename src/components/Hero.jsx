@@ -22,13 +22,15 @@ const Hero = () => {
                   "block",
                   "px-10 py-3",
                   "rounded-md",
-                  "bg-secondary text-black"
+                  "bg-secondary text-black",
+                  "transition duration-300 ease-in-out",
+                  "hover:bg-white"
                 )}
                 href=""
               >
                 Lihat Kursus
               </a>
-              <a className="block" href="">
+              <a className="block duration-300 hover:opacity-75" href="">
                 Lihat Alur Belajar &rarr;
               </a>
             </div>

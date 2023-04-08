@@ -21,7 +21,7 @@ const statistics = [
 
 const Statistics = () => {
   return (
-    <section>
+    <section className="bg-gray-300">
       <Container>
         <div className="py-20 text-primary-2">
           <div className="flex items-end justify-between">
