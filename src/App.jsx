@@ -1,3 +1,4 @@
+import AboutUs from "./components/AboutUs";
 import Benefits from "./components/Benefits";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Statistics />
       <Benefits />
+      <AboutUs />
     </>
   );
 }

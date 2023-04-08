@@ -42,9 +42,9 @@ const listBenefit = [
 
 const Benefits = () => {
   return (
-    <section>
+    <section id="benefits">
       <Container>
-        <div className={clsx("pt-28 pb-16")}>
+        <div className={clsx("pt-28 pb-8")}>
           <h2 className="font-semibold text-4xl text-center max-w-2xl mx-auto">
             Keuntungan Bergabung Dengan E-Learning EDUFREE
           </h2>

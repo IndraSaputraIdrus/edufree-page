@@ -4,7 +4,7 @@ import Container from "./Container";
 
 const Hero = () => {
   return (
-    <section className="mt-20 bg-primary text-white">
+    <section id="home" className="mt-20 bg-primary text-white">
       <Container>
         <div className={clsx("py-[104px]", "flex items-center")}>
           <div className={clsx("w-2/3 pr-10", "flex flex-col space-y-8")}>
