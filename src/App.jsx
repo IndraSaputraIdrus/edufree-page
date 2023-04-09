@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Recomendation from "./components/Recomendation";
 import Statistics from "./components/Statistics";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Benefits />
       <AboutUs />
       <Recomendation />
+      <Testimonials />
     </>
   );
 }
