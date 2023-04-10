@@ -1,5 +1,6 @@
 import AboutUs from "./components/AboutUs";
 import Benefits from "./components/Benefits";
+import Blog from "./components/Blog";
 import Faq from "./components/Faq";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -18,6 +19,7 @@ function App() {
       <Recomendation />
       <Testimonials />
       <Faq />
+      <Blog />
     </>
   );
 }
