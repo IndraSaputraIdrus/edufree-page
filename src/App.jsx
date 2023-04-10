@@ -2,6 +2,7 @@ import AboutUs from "./components/AboutUs";
 import Benefits from "./components/Benefits";
 import Blog from "./components/Blog";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Recomendation from "./components/Recomendation";
@@ -20,6 +21,7 @@ function App() {
       <Testimonials />
       <Faq />
       <Blog />
+      <Footer />
     </>
   );
 }
