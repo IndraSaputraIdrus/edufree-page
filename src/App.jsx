@@ -1,5 +1,6 @@
 import AboutUs from "./components/AboutUs";
 import Benefits from "./components/Benefits";
+import Faq from "./components/Faq";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Recomendation from "./components/Recomendation";
@@ -16,6 +17,7 @@ function App() {
       <AboutUs />
       <Recomendation />
       <Testimonials />
+      <Faq />
     </>
   );
 }

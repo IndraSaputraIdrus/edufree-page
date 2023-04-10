@@ -6,13 +6,13 @@ const Testimonials = () => {
   return (
     <section id="statistics" className="bg-gray-300">
       <Container>
-        <div className="py-20 text-primary-2 flex justify-between space-x-10">
-          <div className="w-5/6">
-            <h4 className="text-3xl leading-relaxed max-w-sm font-semibold">
+        <div className="py-20 text-primary-2 flex space-x-20">
+          <div className="w-[340px] flex-none">
+            <h4 className="text-3xl leading-relaxed font-semibold">
               Kata Mereka Tentang Kursus EDUFREE
             </h4>
-            <p className="text-base max-w-xs text-primary/75">
-              EDUFREE telah dipercaya lebih dari 10.000 siswa{" "}
+            <p className="text-base text-primary/75">
+              EDUFREE telah dipercaya lebih dari 10.000 siswa
             </p>
           </div>
           <div classsName="flex-auto">
